@@ -425,7 +425,7 @@ i:before {
   border-color: #97cdfe;
 }
 
-.main_slider_area .rev_slider .tp-leftarrow, .main_slider_area .rev_slider .tp-rightarrow {
+/*.main_slider_area .rev_slider .tp-leftarrow, .main_slider_area .rev_slider .tp-rightarrow {
   height: 120px;
   background-image: -webkit-gradient(linear, left top, right top, from(#70bafe), color-stop(51%, #998dff), to(#70bafe));
   background-image: -webkit-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
@@ -439,7 +439,7 @@ i:before {
   transition: all 400ms ease-out;
 }
 
-.main_slider_area .rev_slider .tp-leftarrow:before, .main_slider_area .rev_slider .tp-rightarrow:before {
+/*.main_slider_area .rev_slider .tp-leftarrow:before, .main_slider_area .rev_slider .tp-rightarrow:before {
   line-height: 100px;
 }
 
@@ -458,7 +458,7 @@ i:before {
   border-bottom-left-radius: 60px;
   border-top-left-radius: 60px;
   border-right: 0px;
-}
+}*/
 
 /* End Slider css
 ============================================================================================ */
@@ -2402,6 +2402,15 @@ i:before {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
+  line-height: 29px;
+}
+
+.footer_copyright .float-sm-left h4 {
+  font-size: 4px;
+  color: #2a2f56;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
   line-height: 29px;
 }
 
